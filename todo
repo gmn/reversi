@@ -1,0 +1,28 @@
+SDL REVERSI TODO LIST
+
+- implement a checking mechanism which reports the score at the end of
+	the game
+
+- improve the colors. 
+
+- tighten up the error checking, so that faulty moves aren't made.
+
+- Add endgame logic to the AI
+
+- Add defensive analysis to the AI.  such as, dont give up the corner.
+
+- fix the display so that it can be re-sized and toggled to and from
+fullscreen.   
+
+- add some sprites so that the UI will look right, such as a little 
+menu when it first boots up, that can be navigated with arrow keys.
+choose 0, 1, or 2 players, level of difficult easy, medium, hard, really hard
+
+- piece flip animation
+
+- improve the graphic a little to made the pieces look slightly 3D, 
+	you know, see them as cylindrical slices like from the 
+	classic parker bros. Othello.
+
+- add SDL_flip to the AI algorithm so that once in awhile the screen redraws,
+	in case of a move or something
